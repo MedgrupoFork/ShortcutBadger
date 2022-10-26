@@ -5,7 +5,8 @@ buildscript {
         maven { url "https://jitpack.io" }
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.2.0'
+        classpath 'com.android.tools.build:gradle:7.2.2'
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
     }
     ext {
         POM_NAME = 'ShortcutBadger'
@@ -21,8 +22,8 @@ buildscript {
         POM_DEVELOPER_NAME = 'MedgrupoFork'
         POM_PACKAGING = 'aar'
         POM_ARTIFACT_ID = 'ShortcutBadger'
-        VERSION_NAME = '1.0.7'
-        VERSION_CODE = 8
+        VERSION_NAME = '1.0.8'
+        VERSION_CODE = 9
         GROUP = 'com.medgrupofork'
     }
 }
