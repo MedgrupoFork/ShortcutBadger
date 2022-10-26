@@ -1,6 +1,8 @@
 buildscript {
     repositories {
         maven { url "https://jitpack.io" }
+        mavenCentral()
+        google()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:7.0.0'
@@ -19,8 +21,8 @@ buildscript {
         POM_DEVELOPER_NAME = 'Leo Lin'
         POM_PACKAGING = 'aar'
         POM_ARTIFACT_ID = 'ShortcutBadger'
-        VERSION_NAME = '1.0.2'
-        VERSION_CODE = 3
+        VERSION_NAME = '1.0.3'
+        VERSION_CODE = 4
         GROUP = 'me.leolin'
     }
 }
