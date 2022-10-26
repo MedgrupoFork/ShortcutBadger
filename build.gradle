@@ -1,8 +1,8 @@
 buildscript {
     repositories {
-        maven { url "https://jitpack.io" }
         mavenCentral()
         google()
+        maven { url "https://jitpack.io" }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:7.0.0'
@@ -17,12 +17,12 @@ buildscript {
         POM_LICENCE_NAME = 'The Apache Software License, Version 2.0'
         POM_LICENCE_URL = 'http://www.apache.org/licenses/LICENSE-2.0'
         POM_LICENCE_DIST = 'repo'
-        POM_DEVELOPER_ID = 'medgrupofork'
+        POM_DEVELOPER_ID = 'MedgrupoFork'
         POM_DEVELOPER_NAME = 'MedgrupoFork'
         POM_PACKAGING = 'aar'
-        POM_ARTIFACT_ID = 'shortcutbadger'
-        VERSION_NAME = '1.0.5'
-        VERSION_CODE = 6
+        POM_ARTIFACT_ID = 'ShortcutBadger'
+        VERSION_NAME = '1.0.6'
+        VERSION_CODE = 7
         GROUP = 'com.medgrupofork'
     }
 }
