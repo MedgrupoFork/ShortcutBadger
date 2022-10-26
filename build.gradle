@@ -19,8 +19,8 @@ buildscript {
         POM_DEVELOPER_NAME = 'Leo Lin'
         POM_PACKAGING = 'aar'
         POM_ARTIFACT_ID = 'ShortcutBadger'
-        VERSION_NAME = '1.0.1'
-        VERSION_CODE = 1
+        VERSION_NAME = '1.0.2'
+        VERSION_CODE = 3
         GROUP = 'me.leolin'
     }
 }
